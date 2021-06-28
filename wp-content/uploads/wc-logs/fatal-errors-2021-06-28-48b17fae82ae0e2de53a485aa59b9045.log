@@ -1,0 +1,116 @@
+2021-06-28T08:47:03+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\e-store\wp-admin\includes\class-bulk-upgrader-skin.php:152
+Stack trace:
+#0 C:\xampp\htdocs\e-store\wp-admin\includes\class-bulk-upgrader-skin.php(152): sprintf('%1$s installed ...', 'Contact Form 7')
+#1 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(3553): Bulk_Upgrader_Skin->after('Contact Form 7')
+#2 C:\xampp\htdocs\e-store\wp-admin\includes\class-wp-upgrader.php(823): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(3173): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(3286): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(2892): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(658): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\e-store\wp-includes\class-wp-hook.php(292): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\e-store\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\e-store\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\e-store\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\e-store\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\e-store\wp-admin\includes\class-bulk-upgrader-skin.php on line 152
+
+2021-06-28T08:47:19+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\e-store\wp-admin\includes\class-bulk-upgrader-skin.php:152
+Stack trace:
+#0 C:\xampp\htdocs\e-store\wp-admin\includes\class-bulk-upgrader-skin.php(152): sprintf('%1$s installed ...', 'EditorsKit')
+#1 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(3553): Bulk_Upgrader_Skin->after('EditorsKit')
+#2 C:\xampp\htdocs\e-store\wp-admin\includes\class-wp-upgrader.php(823): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(3173): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(3286): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(2892): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(658): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\e-store\wp-includes\class-wp-hook.php(292): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\e-store\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\e-store\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\e-store\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\e-store\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\e-store\wp-admin\includes\class-bulk-upgrader-skin.php on line 152
+
+2021-06-28T08:47:43+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\e-store\wp-admin\includes\class-bulk-upgrader-skin.php:152
+Stack trace:
+#0 C:\xampp\htdocs\e-store\wp-admin\includes\class-bulk-upgrader-skin.php(152): sprintf('%1$s installed ...', 'Gutenberg')
+#1 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(3553): Bulk_Upgrader_Skin->after('Gutenberg')
+#2 C:\xampp\htdocs\e-store\wp-admin\includes\class-wp-upgrader.php(823): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(3173): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(3286): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(2892): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(658): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\e-store\wp-includes\class-wp-hook.php(292): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\e-store\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\e-store\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\e-store\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\e-store\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\e-store\wp-admin\includes\class-bulk-upgrader-skin.php on line 152
+
+2021-06-28T08:47:58+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\e-store\wp-admin\includes\class-bulk-upgrader-skin.php:152
+Stack trace:
+#0 C:\xampp\htdocs\e-store\wp-admin\includes\class-bulk-upgrader-skin.php(152): sprintf('%1$s installed ...', 'YITH Slider for...')
+#1 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(3553): Bulk_Upgrader_Skin->after('YITH Slider for...')
+#2 C:\xampp\htdocs\e-store\wp-admin\includes\class-wp-upgrader.php(823): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(3173): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(3286): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(2892): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(658): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\e-store\wp-includes\class-wp-hook.php(292): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\e-store\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\e-store\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\e-store\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\e-store\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\e-store\wp-admin\includes\class-bulk-upgrader-skin.php on line 152
+
+2021-06-28T08:48:14+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\e-store\wp-admin\includes\class-bulk-upgrader-skin.php:152
+Stack trace:
+#0 C:\xampp\htdocs\e-store\wp-admin\includes\class-bulk-upgrader-skin.php(152): sprintf('%1$s installed ...', 'YITH WooCommerc...')
+#1 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(3553): Bulk_Upgrader_Skin->after('YITH WooCommerc...')
+#2 C:\xampp\htdocs\e-store\wp-admin\includes\class-wp-upgrader.php(823): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(3173): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(3286): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(2892): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(658): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\e-store\wp-includes\class-wp-hook.php(292): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\e-store\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\e-store\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\e-store\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\e-store\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\e-store\wp-admin\includes\class-bulk-upgrader-skin.php on line 152
+
+2021-06-28T08:48:45+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\e-store\wp-admin\includes\class-bulk-upgrader-skin.php:152
+Stack trace:
+#0 C:\xampp\htdocs\e-store\wp-admin\includes\class-bulk-upgrader-skin.php(152): sprintf('%1$s installed ...', 'YITH WooCommerc...')
+#1 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(3553): Bulk_Upgrader_Skin->after('YITH WooCommerc...')
+#2 C:\xampp\htdocs\e-store\wp-admin\includes\class-wp-upgrader.php(823): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(3173): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(3286): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(2892): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\e-store\wp-content\themes\yith-proteo\third-party\classes\class-tgm-plugin-activation.php(658): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\e-store\wp-includes\class-wp-hook.php(292): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\e-store\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\e-store\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\e-store\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\e-store\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\e-store\wp-admin\includes\class-bulk-upgrader-skin.php on line 152
+
+2021-06-28T08:50:58+00:00 CRITICAL Uncaught Error: Cannot use a scalar value as an array in C:\xampp\htdocs\e-store\wp-content\plugins\yith-proteo-toolkit\includes\third-party\importer\importer-config.php:201
+Stack trace:
+#0 C:\xampp\htdocs\e-store\wp-includes\class-wp-hook.php(292): prefix_wizard_after_import_setup(0)
+#1 C:\xampp\htdocs\e-store\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\e-store\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\e-store\wp-content\plugins\yith-proteo-toolkit\includes\third-party\importer\includes\class-yith-proteo-wizard-hooks.php(57): do_action('wizard_after_al...', 0)
+#4 C:\xampp\htdocs\e-store\wp-content\plugins\yith-proteo-toolkit\includes\third-party\importer\class-yith-proteo-wizard.php(1592): YITH_Proteo_Wizard_Hooks->after_all_import_action(0)
+#5 C:\xampp\htdocs\e-store\wp-includes\class-wp-hook.php(290): YITH_Proteo_Wizard->ajax_content()
+#6 C:\xampp\htdocs\e-store\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\e-store\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\e-store\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wizard_...')
+#9 {main}
+  thrown in C:\xampp\htdocs\e-store\wp-content\plugins\yith-proteo-toolkit\includes\third-party\importer\importer-config.php on line 201
+
