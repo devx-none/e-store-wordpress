@@ -114,3 +114,5 @@ Stack trace:
 #9 {main}
   thrown in C:\xampp\htdocs\e-store\wp-content\plugins\yith-proteo-toolkit\includes\third-party\importer\importer-config.php on line 201
 
+2021-06-28T15:59:14+00:00 CRITICAL Out of memory (allocated 56623104) (tried to allocate 32768 bytes) in C:\xampp\htdocs\e-store\wp-content\plugins\facebook-for-woocommerce\includes\fbgraph.php on line 1
+
